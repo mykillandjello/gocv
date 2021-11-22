@@ -592,8 +592,6 @@ func TestEstimateAffine2D(t *testing.T) {
 		t.Errorf("TestEstimateAffine2D(): unexpected rows = %v, want = %v", m.Rows(), 2)
 	}
 }
-<<<<<<<<< Temporary merge branch 1
-=========
 
 func TestEstimateAffine2DWithParams(t *testing.T) {
 	src := []Point2f{
@@ -633,4 +631,3 @@ func TestEstimateAffine2DWithParams(t *testing.T) {
 		t.Errorf("TestEstimateAffine2DWithParams(): unexpected rows = %v, want = %v", m.Rows(), 2)
 	}
 }
->>>>>>>>> Temporary merge branch 2
